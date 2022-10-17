@@ -1,5 +1,4 @@
 import React from 'react';
-
 const SelectMenu = (data) => {
   return (
     <select name={data.name} id={data.id}>
