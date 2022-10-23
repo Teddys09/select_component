@@ -1,6 +1,6 @@
 {
   "name": "select_menu_strumilo_oc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "select menu component",
   "main": "index.js",
   "scripts": {
