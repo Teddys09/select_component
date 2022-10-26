@@ -1,6 +1,8 @@
 const path = require('path');
 
 module.exports = {
+  // add README.md to te package as well
+
   mode: 'production',
   entry: './src/index.js',
   output: {
@@ -15,6 +17,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
       },
+
       {
         test: /(@?react-(navigation|native)).*\.(ts|js)x?$/,
         include: /node_modules/,
@@ -27,6 +30,7 @@ module.exports = {
       },
     ],
   },
+
   externals: {
     react: 'react',
     'react-dom': 'react-dom',

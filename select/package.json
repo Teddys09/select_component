@@ -1,6 +1,6 @@
 {
   "name": "select_menu_strumilo_oc",
-  "version": "1.0.1",
+  "version": "1.0.15",
   "description": "select menu component",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "8.2.5",
     "css-loader": "^3.3.0",
     "style-loader": "^1.0.1",
     "webpack": "^4.41.2",
